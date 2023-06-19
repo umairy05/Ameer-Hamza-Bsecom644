@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+
+}
+body{
+
+    background-image: url(h/0.jpg);
+    height: 100%;
+}
+.menu-btn{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.navbar{
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgba(229, 166, 6, 0.89);
+    top: 0%;
+    z-index: 999;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.582);
+}
+.navbar .logo h1{
+    color:rgb(12, 12, 12);
+    border-bottom: 4px solid#1228ef;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .menu li .active{
+    border-bottom: 4px solid #2b00ff;
+}
+.navbar .menu li a i{
+    color: #290bed;
+}
+.navbar .menu li a:hover{
+    border-bottom: 4px solid #1008f4;
+}
+.content{
+    
+    background-image: url(h/22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 100vh;
+}
+.content h1{
+    font-size: 40px;
+    color: black;
+
+}
+.content h2{
+    font-size: 40px;
+    color: rgb(19, 201, 49);
+}
+.content p{
+    font-size: 20px;
+    color: #e42b06;
+
+
+}
+.content button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    background: #0e0e0e;
+    color: #f3f4f6;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.pheading{
+    text-align: center;
+    margin: 50px 0;
+    color: rgb(213, 41, 15);
+}
+.pheading h1 span{
+    color: red;
+
+}
+.sec{
+    padding: 10px 5%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10px, 1fr));
+}
+.products .card{
+    width: 160px;
+    height: 80vh;
+    background: rgb(222, 216, 216);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.986);
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+
+}
+.products .card img{
+    height: 250px;
+    width: 100%;
+
+
+}
+.products .card .desc{
+    color: red;
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.products .card .title{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    padding: 0 20px;
+}
+.products .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.products .card .box .price{
+    color: rgb(18, 114, 37);
+    font-size: 2opx;
+    font-weight: bold;
+}
+.products .card .box .btn{
+    font-size: 13px;
+    color: #f63e4e;
+    padding: 10px 18px;
+    font-weight: 100;
+    border: 1px sloid #f63e4e;
+    border-radius: 10px;
+}
+.products .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #f63e4e;
+    color: white;
+}
+#banner {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    background-image: url(h/99.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner h4{
+    color: rgb(4, 4, 4);
+    font-size: 16px;
+
+}
+#banner h2{
+    color: #8a0404;
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+#banner h3{
+    color:  rgb(18, 188, 80);
+    font-size: 20px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: rgb(62, 24, 227);
+    
+}
+button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: rgb(211, 207, 207);
+    background-color: rgb(9, 10, 9);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    transition: o.2s;
+
+}
+
